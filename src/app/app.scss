@@ -11,3 +11,17 @@
   width: 100%;
   margin: 0 auto;
 }
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background-color: #84caf3;
+  font-size: large;
+}

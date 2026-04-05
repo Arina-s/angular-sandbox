@@ -1,0 +1,21 @@
+<h1>Components</h1>
+
+<h2>Селекторы</h2>
+<tag-selector/>
+<div data-attribute-selector="1"></div>
+
+<!-- Этот элемент не будет отрисован, так как значение атрибута не совпадает с требуемым -->
+<div data-exact-attribute-selector="not-exact"></div> 
+<div data-exact-attribute-selector="exact"></div>
+
+<div class="class-selector"></div>
+
+<div class="class-selector-with-not"></div>
+<!-- Этот элемент не будет отрисован, так как он является тегом span -->
+<span class="class-selector-with-not"></span>
+
+<tag-selector-with-attribute data-attribute="value"/>
+
+<multiple-selectors/>
+<div class="multiple-selectors"></div>
+<div data-multiple-selectors></div>
